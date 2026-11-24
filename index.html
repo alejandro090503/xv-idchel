@@ -2503,7 +2503,19 @@ button{font-family:'Cormorant Garamond',serif}
 #countdown .cd-num{font-family:'Playfair Display',serif!important;font-weight:500!important;letter-spacing:0!important;font-variant-numeric:lining-nums tabular-nums!important;font-feature-settings:'lnum' 1,'tnum' 1}
 .cd-ring-grid>:nth-child(1) .cd-num{font-size:68px!important}.cd-ring-grid>:nth-child(2) .cd-num{font-size:56px!important}.cd-ring-grid>:nth-child(3) .cd-num{font-size:46px!important}.cd-ring-grid>:nth-child(4) .cd-num{font-size:38px!important}
 .idr-limit,.idr-note,.idr-input,.idr-input::placeholder,.ft-dt{font-variant-numeric:lining-nums;font-feature-settings:'lnum' 1}
+
+/* Hero con arco floral: las flores quedan arriba y a color */
+#hero{background:#14100F!important}
+.hero-bg{inset:0 0 -90px!important}
+.hero-bg::after{content:none!important}
+.hero-drift{inset:0!important;background:#14100F url(ink/hero-flores.webp) center top/cover no-repeat!important;transform-origin:50% 0;animation:heroFlores 22s ease-in-out infinite alternate}
+@keyframes heroFlores{from{transform:scale(1)}to{transform:scale(1.045)}}
+.hero-flares{opacity:.45}
+#hero .foil-text{text-shadow:none!important}
+.hero-vig{background:radial-gradient(ellipse at 50% 30%,rgba(20,16,15,0) 62%,rgba(20,16,15,.28) 100%)}
+.hero-veil{height:58%!important;background:linear-gradient(to top,rgba(20,16,15,.72) 0,rgba(20,16,15,.42) 42%,rgba(20,16,15,0) 100%)}
 </style>
+<link rel="preload" as="image" href="ink/hero-flores.webp">
 </head>
 <body>
 
