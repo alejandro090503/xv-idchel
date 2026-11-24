@@ -1,0 +1,12 @@
+*.mp3
+.DS_Store
+.claude/
+.env*
+.vercel
+.vercel
+Thumbs.db
+node_modules
+tmp/
+
+.vercel
+.env*
